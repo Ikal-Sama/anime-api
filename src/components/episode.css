@@ -1,0 +1,30 @@
+.episode-container{
+    width: 100%;
+    margin: 20px auto;
+    padding: 19px;
+    max-width: 95%;
+    /* background-color: #3d3c3c; */
+}
+.episode-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.episode-item{
+    width: calc(20% - 16px); /* Adjust the width and margin as needed */
+    /* height: 55vh; */
+    margin: 8px;
+    text-align: center;
+    background-color: #b3b3b3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00000033;
+}
+.episode-item img{
+    width: 150px;
+}
+.episode-item h1{
+    font-size: large;
+    color: #3d3c3c;
+}

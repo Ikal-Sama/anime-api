@@ -1,0 +1,18 @@
+.Header{
+    background: #000;
+    color: #fff;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+}
+.Header ul{
+    display: flex;
+    gap: 2rem;
+}
+.Header ul li {
+    list-style-type: none;
+}
+.Header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
